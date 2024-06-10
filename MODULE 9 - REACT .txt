@@ -1,0 +1,131 @@
+                                                                                 MODULE 9 - REACT 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.1- What is React Js?
+ANS:-React.js (or simply React) is a popular open-source JavaScript library used for building user interfaces, particularly for single-page applications where a seamless and responsive user experience is crucial. Developed and maintained by Facebook, React allows developers to create large web applications that can update and render efficiently in response to data changes. Here are some key features and concepts of React:
+
+1. Component-Based Architecture:
+
+React applications are built using components, which are reusable pieces of UI. Each component encapsulates its structure, style, and behavior, allowing for modular and maintainable code.
+
+2. Virtual DOM:
+
+React uses a virtual DOM to optimize performance. Instead of directly manipulating the DOM, React creates a virtual representation of it. When the state of a component changes, React updates the virtual DOM and then efficiently updates the real DOM to match the virtual one.
+
+3. JSX Syntax:
+
+React uses JSX (JavaScript XML), a syntax extension that allows developers to write HTML-like code within JavaScript. JSX makes it easier to create and visualize the structure of the UI components.
+
+4. One-Way Data Binding:
+
+React follows a unidirectional data flow, meaning data flows in one direction, from parent to child components. This makes the data flow easier to understand and debug.
+
+5. State and Props:
+
+State: A state is an object that holds data that may change over the component's lifecycle. It is managed within the component.
+Props: Short for properties, props are read-only attributes passed from parent components to child components to convey information.
+
+6. Lifecycle Methods:
+
+React components have a lifecycle that includes phases such as mounting, updating, and unmounting. Lifecycle methods (e.g., componentDidMount, componentDidUpdate, componentWillUnmount) allow developers to execute code at specific points in this lifecycle.
+
+7. Hooks:
+
+Introduced in React 16.8, hooks are functions that let developers use state and other React features without writing a class. Common hooks include useState, useEffect, useContext, and others.
+
+8. Ecosystem and Tooling:
+
+React has a rich ecosystem of libraries and tools, such as React Router for routing, Redux for state management, and Next.js for server-side rendering.
+
+9. Community and Support:
+
+React has a large and active community, extensive documentation, and a wide array of third-party libraries and resources, making it easier for developers to find support and solutions.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.2- What is NPM in React Js?
+ANS:- NPM (Node Package Manager) is a tool used in React.js development for managing and installing JavaScript packages. It provides a command-line interface (CLI) for developers to easily install, update, and manage dependencies required for their React projects. NPM hosts a vast repository of packages, including React itself and many related tools and libraries, facilitating efficient project setup and maintenance.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.3- What is Role of Node Js in react Js?
+ANS:- Node.js plays a crucial role in React.js development by providing the following:
+
+Development Environment: Node.js allows developers to run development tools and scripts, such as project scaffolding tools like create-react-app, on their local machines.
+
+Package Management: With NPM (Node Package Manager), which comes with Node.js, developers can manage and install the various dependencies and libraries needed for a React project.
+
+Server-Side Rendering (SSR): Node.js can be used to render React components on the server before sending the HTML to the client, improving performance and SEO. Frameworks like Next.js utilize Node.js for SSR.
+
+In summary, Node.js is essential for managing development tools, dependencies, and enabling advanced features like server-side rendering in React.js applications.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.4- What is CLI command In React Js?
+ANS:- In React.js, a CLI (Command Line Interface) command is a text-based input method used to interact with tools and manage various aspects of a React project. Key CLI commands include:
+
+1. Creating a New React App:
+
+npx create-react-app my-app
+This initializes a new React project with a standard structure.
+
+2. Running the Development Server:
+
+npm start
+This starts the development server and opens the app in the browser for live preview.
+
+3. Building the App for Production:
+
+npm run build
+This bundles the app into static files for deployment.
+
+4. Installing Dependencies:
+
+npm install package-name
+This installs additional libraries or tools needed for the project.
+
+These CLI commands streamline the development workflow in React.js.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.4- What is Components in React Js?
+ANS:- In React.js, components are the building blocks of the user interface. They are reusable, self-contained pieces of UI that can manage their own state and props. Components can be functional or class-based and are used to break down complex UIs into simpler, manageable parts.
+
+-->function Car() {
+  return <h2>Hi, I am a Car!</h2>;
+}-->
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.5- What is Header and Content Components in React Js?
+ANS:- In React.js, Header and Content components are specific types of components used to organize the layout of a web application:
+
+1. Header Component: Typically contains navigation elements, logos, or titles that appear at the top of the page.
+2. Content Component: Holds the main content of the page, such as text, images, or other nested components.
+
+Both components help structure the application for better readability and maintainability.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.6- How to install React Js on Windows, Linux Operating System? How to Install
+NPM and How to check version of NPM?
+ANS:- 1. npm install -g npm
+      2. npm -v
+      3. Npx create-react-app app name
+      4. cd my-app
+      5. npm start
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.7- How to check version of React Js?
+ANS:- Open the package.Json file.
+{
+   "dependencies":{
+       "react":"^18.2.0",
+}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
